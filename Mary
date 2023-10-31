@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Beautiful Webpage Dedicated to my Beautiful Wife </title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: sans-serif;
+		font-weight: lighter;
+		font-size: 15px;
+	}
+	body{
+		background: url(img/landscape3.jpg);
+		background-size: cover;
+	}
+	.flex{
+		display: flex;
+		align-items: center;
+	}
+	.container1{
+		width: 100%;
+		height: 60px;
+		color: white;
+		background: rgb(0, 0, 0, 0.85);
+	}
+	nav{
+		margin: 0 30px;
+	}
+	ul{
+		list-style: none;
+		margin: 20px;
+		font-size: 20px;
+	}
+	li{
+		margin: 0 10px;
+		cursor: pointer;
+	}
+	.inp{
+		position: absolute;
+		right: 5px;
+	}
+	.input{
+		height: 40px;
+		border-radius: 5px;
+		font-size: 17px;
+	}
+	.text{
+		padding-left: 20px;
+		margin-right: 5px;outline: 1px solid blue;
+	}
+	.mary{
+		font-family: cursive;
+		font-size: 30px;
+		font-style: italic;
+		color: rgb(200, 0, 100, 1.0);
+	}
+	.submit{
+		width: 100px;
+		margin-right: 50px;
+		background: black;
+		color: green;
+		border: 1px solid green;
+	}
+	.container2{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.log-button{
+		text-decoration: none;
+		padding: 5px;
+		font-size: 20px;
+		margin: 20px;
+		border-radius: 10px;
+
+	}
+	.login{
+		color: white;
+		background: rgba(0, 128, 0, 0.85);
+	}
+	.register{
+		color: black;
+		background: rgba(0, 183, 255, 0.85);
+	}
+</style>
+<body>
+	<div class="container1 flex">
+		<nav class="flex">
+			<h1 class="mary">Mary's Hairhub</h1>
+			<ul class="flex">
+				<li>Home</li>
+				<li>About us</li>
+				<li>Contact us</li>
+			</ul>
+			<div class="inp">
+				<input type="text" placeholder="Search" class="input text">
+				<input type="submit" value="Search" class="input submit">
+			</div>
+		</nav>
+	</div>
+	<div class="container2">
+		<a href="#" class="log-button login">LOG_IN</a>
+		<a href="#" class="log-button register">REGISTER</a>
+		</div>
+
+</body>
+</html>
